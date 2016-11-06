@@ -4,3 +4,6 @@
 *.iws
 lib/
 seleniumLib/
+.gradle/
+build/
+
