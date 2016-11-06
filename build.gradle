@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+/*    compile 'org.apache.poi:poi:3.14'
+    compile 'org.apache.poi:poi-ooxml:3.14'
+    compile 'org.apache.poi:poi-excelant:3.14'
+    compile 'org.apache.poi:poi-scratchpad:3.14'
+    compile 'org.apache.poi:poi-ooxml-schemas:3.14'*/
+
+    compile fileTree(dir: 'lib',include: '*jar')
+}
